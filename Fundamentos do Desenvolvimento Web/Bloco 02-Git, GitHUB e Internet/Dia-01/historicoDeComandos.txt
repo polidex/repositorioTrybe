@@ -1,0 +1,82 @@
+233  mkdir gitRepo
+  234  cd gitRepo/
+  235  sudo apt-get install git-all
+  236  clear
+  237  git config --global user.name "Seu nome"
+  238  git config --global user.name "Igor Polido"
+  239  git config --global user.email lp.igor@gmail.com
+  240  .gitconfig
+  241  git config --list
+  242  ls
+  243  cd gitRepo/
+  244  git config --global core.editor "code --wait"
+  245  ls -a
+  246  code .gitconfig
+  247  git --version
+  248  git config --list
+  249  git config --global core.editor "polidex"
+  250  git config --list
+  251  ssh-keygen -t rsa -b 4096 -C "lp.igor@gmail.com"
+  252  eval "$(ssh-agent -s)" &
+  253  ssh-add ~/.ssh/id_rsa
+  254  sudo apt-get install xclip
+  255  xclip -sel clip < ~/.ssh/id_rsa.pub
+  256  git init
+  257  clear
+  258  cd ..
+  259  ls
+  260  rm -rf gitRepo/
+  261  ls
+  262  mkdir repositorioTrybe
+  263  ls
+  264  cd repositorioTrybe/
+  265  git init
+  266  git status
+  267  touch arquivotest.txt
+  268  cat > arquivotest.txt 
+  269  git status
+  270  git add arquivotest.txt 
+  271  git status
+  272  git commit -m "Teste pra ver se ta tudo funcionando"
+  273  git status
+  274  git remote add origin git@github.com:polidex/repositorioTrybe.git
+  275  git remote -v
+  276  git status
+  277  git push origin master
+  278  clear
+  279  sudo apt-get install zsh
+  280  clear
+  281  chsh -s $(which zsh)
+  282  git status
+  283  ls
+  284  cd repositorioTrybe/
+  285  git status
+  286  git remove -v
+  287  git remote -v
+  288  clear
+  289  git push origin master
+  290  ls
+  291  cd Fundamentos\ do\ Desenvolvimento\ Web/
+  292  ls
+  293  cd Bloco\ 02-Git\,\ GitHUB\ e\ Internet/
+  294  ls
+  295  cd Dia-01/
+  296  cat > trybe-skills.txt 
+  297  ls -l
+  298  pwd
+  299  cd ../../../
+  300  pwd
+  301  touch README.md
+  302  git add.
+  303  git add .
+  304  git commit -m "Commit inicial"
+  305  git push
+  306  git push origin master
+  307  clear
+  308  cat >> README.md 
+  309  cat README.md 
+  310  git add
+  311  git add README.md 
+  312  git push origin master
+  313  git status
+  314  git --help
