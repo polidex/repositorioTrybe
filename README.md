@@ -1,0 +1,1 @@
+Neste repositório serão alocados todos os exercicios concluídos durante o curso de desenvolvimento web da Trybe que eu estou fazendo.
