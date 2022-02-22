@@ -1,0 +1,28 @@
+  1  ls
+    2  cd Fundamentos\ do\ Desenvolvimento\ Web/
+    3  ls
+    4  cd Bloco\ 02-Git\,\ GitHUB\ e\ Internet/
+    5  cd Dia-02/
+    6  ls
+    7  git status
+    8  git branch trybe-skills-changes
+    9  git branch
+   10  git checkout trybe-skills-changes 
+   11  cat >> trybe-skills.txt 
+   12  git add trybe-skills.txt 
+   13  git commit -m 'adiciona duas novas skills' 
+   14  git push -u origin trybe-skills-changes 
+   15  git checkout master
+   16  git branch
+   17  git branch trybe-skills-updates
+   18  git checkout trybe-skills-updates 
+   19  ls
+   20  cat trybe-skills.txt 
+   21  cat >> trybe-skills.txt 
+   22  git add trybe-skills.txt 
+   23  git commit -m 'adiciona uma nova skill'
+   24  git push -u origin trybe-skills-updates 
+   25  git branch
+   26  git checkout master
+   27  hostory
+   28  history
