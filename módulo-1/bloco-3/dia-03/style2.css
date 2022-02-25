@@ -10,11 +10,17 @@
 }
 
 .baloon {
-
+  margin-top: 600px;
+  position: absolute;
+  z-index: 1;
 }
 
 .speach {
   font-size: 25px;
+  margin-top: 505px;
+  margin-left: 220px;
+  position: absolute;
+  z-index: 2;
 }
 
 .bowser {
