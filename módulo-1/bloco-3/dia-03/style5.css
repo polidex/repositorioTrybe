@@ -20,3 +20,12 @@ li {
 em {
   font-weight: bold;
 }
+.linguagens {
+  color: blue;
+}
+.rosa {
+  background-color: pink;
+}
+div li.aliados:hover {
+  font-weight: bold;
+}
