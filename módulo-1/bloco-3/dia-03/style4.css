@@ -2,3 +2,24 @@ div:hover {
   border-style: solid;
   border-color: blue;
 }
+.amarelo {
+  color: yellow;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-style: italic;
+}
+.verde {
+  color: green;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.violet {
+  color: violet;
+  font-size: xx-large;
+  font-style: italic;
+}
+.navy { 
+  color: navy;
+}
+.aqua {
+  color: aquamarine;
+  font-style: italic;
+}
