@@ -24,8 +24,20 @@ em {
   color: blue;
 }
 .rosa {
-  background-color: pink;
+  background-color: pink; /* Não lembrei como faz pra filtrar uma palavra chave, então deixei estático mesmo */
 }
-div li.aliados:hover {
+footer li:hover {
   font-weight: bold;
+}
+.laranja:hover {
+  color: orange;
+}
+.verde:hover {
+  color: green;
+}
+.azul:hover {
+  color: blue;
+}
+.verdeClaro:hover {
+  color: greenyellow;
 }
