@@ -1,16 +1,16 @@
 ol { 
   background-color: yellow;
 }
-.par {
+ol li:nth-child(even) {
   color: green;
 }
-.impar {
+ol li:nth-child(odd) {
   text-transform: uppercase;
 }
 h1, h2 {
   color: red;
 }
-.italico {
+h1, h2:nth-child(italic) {
   font-size: 40px;
   border: 1px solid black;
 }
@@ -24,7 +24,7 @@ em {
   color: blue;
 }
 .rosa {
-  background-color: pink; /* Não lembrei como faz pra filtrar uma palavra chave, então deixei estático mesmo */
+  background-color: pink; 
 }
 footer li:hover {
   font-weight: bold;
