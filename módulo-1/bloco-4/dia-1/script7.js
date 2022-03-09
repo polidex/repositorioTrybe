@@ -44,3 +44,29 @@ if (num3 > num4 && num3 > num5) {
 }
 
 console.log('-----Exercício 4-----');
+
+let valor = -3;
+
+if (valor >= 0) {
+    console.log('Positivo');
+} else if (valor < 0) {
+    console.log('Negativo');
+}
+
+console.log('-----Exercício 5-----');
+
+const angle1 = 100;
+const angle2 = 50;
+const angle3 = 30;
+let triangle = angle1 + angle2 + angle3;
+
+if (triangle = 180) {
+  console.log('true');
+} else if (triangle > 180){
+  console.log('false');
+} else if (triangle < 180) {
+  console.log('ERRO: ângulo inválido');
+}
+
+console.log('-----Exercício 6-----');
+
