@@ -131,3 +131,16 @@ if (conta6 == 0 || conta7 == 0 || conta8 == 0) {
 }
 
 console.log('-----Exercício 09-----');
+
+const num9 = 289;
+const num10 = 682;
+const num11 = 809;
+let conta9 = num9 % 2;
+let conta10 = num10 % 2;
+let conta11 = num11 % 2;
+
+if (conta9 !== 0 || conta10 !== 0 || conta11 !== 0) {
+  console.log('true');
+} else {
+  console.log('false');
+}
