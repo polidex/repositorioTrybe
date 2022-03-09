@@ -144,3 +144,19 @@ if (conta9 !== 0 || conta10 !== 0 || conta11 !== 0) {
 } else {
   console.log('false');
 }
+
+console.log('-----Exercício 10-----');
+
+const custo = 346.00;
+const venda = 544.96;
+let imposto = custo * 0.20;
+let custoTotal = custo + imposto;
+let lucro = venda - custoTotal;
+let vendas = 1000;
+let balanco = lucro * vendas; 
+
+if (custo <= 0 || venda <= 0) {
+  console.log('ERRO: valor de custo ou venda não podem ser negativos.')
+} else if (balanco > 0) {
+  console.log('A empresa terá um lucro de R$' + balanco);
+}
