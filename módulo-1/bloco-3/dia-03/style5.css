@@ -1,16 +1,16 @@
 ol { 
   background-color: yellow;
 }
-.par {
+ol li:nth-child(even) {
   color: green;
 }
-.impar {
+ol li:nth-child(odd) {
   text-transform: uppercase;
 }
 h1, h2 {
   color: red;
 }
-.italico {
+h1, h2:nth-child(italic) {
   font-size: 40px;
   border: 1px solid black;
 }
@@ -24,8 +24,20 @@ em {
   color: blue;
 }
 .rosa {
-  background-color: pink;
+  background-color: pink; 
 }
-div li.aliados:hover {
+footer li:hover {
   font-weight: bold;
+}
+.laranja:hover {
+  color: orange;
+}
+.verde:hover {
+  color: green;
+}
+.preto:hover {
+  color: black;
+}
+.amarelo:hover {
+  color: yellow;
 }
