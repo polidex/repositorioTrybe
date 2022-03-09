@@ -1,4 +1,4 @@
-console.log('-----Parte 1-----')
+console.log('-----Exercício 1-----')
 
 const a = 33;
 const b = 11;
@@ -18,7 +18,7 @@ let Divisao = a / b;
 let Modulo = a % b;
   console.log(Modulo);
 
-console.log('-----Parte 2-----');
+console.log('-----Exercício 2-----');
 
 const num1 = 23;
 const num2 = 32;
@@ -29,7 +29,18 @@ if (num1 > num2) {
   console.log(num2);
 }
 
-console.log('-----Parte 3-----');
+console.log('-----Exercício 3-----');
 
-const num3 = 42
-const num4 = 
+const num3 = 42;
+const num4 = 66;
+const num5 = 150;
+
+if (num3 > num4 && num3 > num5) {
+  console.log(num3);
+} else if (num4 > num3 && num4 > num5) {
+  console.log(num4);
+} else if (num5 > num3 && num5 > num4) {
+  console.log(num5);
+}
+
+console.log('-----Exercício 4-----');
