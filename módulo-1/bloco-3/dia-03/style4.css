@@ -5,7 +5,6 @@ div:hover {
 .amarelo {
   color: yellow;
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-style: italic;
 }
 .verde {
   color: green;
@@ -14,12 +13,13 @@ div:hover {
 .violet {
   color: violet;
   font-size: xx-large;
-  font-style: italic;
 }
 .navy { 
   color: navy;
 }
 .aqua {
   color: aquamarine;
+}
+h3:nth-child(odd){
   font-style: italic;
 }
