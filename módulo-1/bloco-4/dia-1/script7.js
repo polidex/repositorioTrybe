@@ -1,4 +1,4 @@
-console.log('-----Exercício 1-----')
+console.log('-----Exercício 01-----')
 
 const a = 33;
 const b = 11;
@@ -18,7 +18,7 @@ let Divisao = a / b;
 let Modulo = a % b;
   console.log(Modulo);
 
-console.log('-----Exercício 2-----');
+console.log('-----Exercício 02-----');
 
 const num1 = 23;
 const num2 = 32;
@@ -29,7 +29,7 @@ if (num1 > num2) {
   console.log(num2);
 }
 
-console.log('-----Exercício 3-----');
+console.log('-----Exercício 03-----');
 
 const num3 = 42;
 const num4 = 66;
@@ -43,7 +43,7 @@ if (num3 > num4 && num3 > num5) {
   console.log(num5);
 }
 
-console.log('-----Exercício 4-----');
+console.log('-----Exercício 04-----');
 
 let valor = -3;
 
@@ -53,7 +53,7 @@ if (valor >= 0) {
     console.log('Negativo');
 }
 
-console.log('-----Exercício 5-----');
+console.log('-----Exercício 05-----');
 
 const angle1 = 100;
 const angle2 = 50;
@@ -68,7 +68,7 @@ if (triangle = 180) {
   console.log('ERRO: ângulo inválido');
 }
 
-console.log('-----Exercício 6-----');
+console.log('-----Exercício 06-----');
 
 let pecaXadrez = 'CAVALO';
 
@@ -95,7 +95,7 @@ switch (pecaXadrez.toLowerCase()) {
     console.log('ERRO: Peça não identificada.');
 }
 
-console.log('-----Exercício 7-----');
+console.log('-----Exercício 07-----');
 
 let nota = 32;
 
@@ -115,4 +115,19 @@ if (nota < 0 || nota > 100) {
   console.log('F');
 }
 
-console.log('-----Exercício 8-----');
+console.log('-----Exercício 08-----');
+
+const num6 = 73;
+const num7 = 39;
+const num8 = 86;
+let conta6 = num6 % 2;
+let conta7 = num7 % 2;
+let conta8 = num8 % 2;
+
+if (conta6 == 0 || conta7 == 0 || conta8 == 0) {
+  console.log('true');
+} else {
+  console.log('false');
+}
+
+console.log('-----Exercício 09-----');
