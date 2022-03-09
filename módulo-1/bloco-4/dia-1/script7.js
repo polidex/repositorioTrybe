@@ -70,3 +70,29 @@ if (triangle = 180) {
 
 console.log('-----Exercício 6-----');
 
+let pecaXadrez = 'CAVALO';
+
+switch (pecaXadrez.toLowerCase()) {
+  case 'peão':
+    console.log('Move-se apenas para frente, no primeiro movimento pode andar duas casas, depois, apenas uma e captura somente para diagonal.');
+    break;
+  case 'bispo':
+    console.log('Move-se apenas para diagonal nas casas de cor correspondente a que está.');
+    break;
+  case 'torre':
+    console.log('Move-se apenas em linha reta.');
+    break;
+  case 'cavalo':
+    console.log('Move-se apenas três casa em um formato de "L" duas casas para algum lado depois uma para direita ou esquerda ou uma casa para algum lado depois duas para direita ou esquerda.');
+    break;
+  case 'rainha':
+    console.log('Move-se livremente para qualquer direção.');
+    break;
+  case 'rei':
+    console.log('Move-se apenas uma casa livremente para qualquer direção.');
+    break;
+  default:
+    console.log('ERRO: Peça não identificada.');
+}
+
+console.log('-----Exercício 7-----');
