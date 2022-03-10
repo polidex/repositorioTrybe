@@ -113,19 +113,45 @@ console.log(menor);
 
 console.log("-----Exercício 8-----");
 
-let array = [];
+let numbersNew = [];
 let dig = 0;
 
 for (let i = 0; i < 25; i += 1) {
-  array.push(dig += 1);
+  numbersNew.push(dig += 1);
 }
-console.log(array);
+console.log(numbersNew);
 
 console.log("-----Exercício 9-----");
 
 let div = [];
 
 for (let i1 = 0; i1 < 25; i1 += 1) {
-  div.push(array[i1] / 2);
+  div.push(numbersNew[i1] / 2);
 }
 console.log(div);
+
+console.log("----- Bônus -----");
+
+console.log("-----Exercício 1-----");
+
+let numbersCres = [];
+
+for (let indexB = 1; indexB < numbers.length; indexB+=1) {
+  for (j = 0; j < numbers.length - indexB; j+=1) {
+      if (numbers[j] > numbers[j + 1]) {
+        numbersCres = numbers[j];
+          numbers[j] = numbers[j + 1];
+          numbers[j + 1] = numbersCres;
+      }
+    }
+  }
+// for (let indexB = 0; indexB < numbers.length; indexB += 1) {
+//   for (let secondIndex = 0; secondIndex < indexB; secondIndex += 1) {
+//     if (numbers[indexB] < numbers[secondIndex]) {
+//       position = numbers[indexB];
+//       numbers[indexB] = numbers[secondIndex];
+//       numbers[secondIndex] = position;
+//     }
+//   }
+// }
+console.log(numbersCres);
