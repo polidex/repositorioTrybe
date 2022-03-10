@@ -160,3 +160,37 @@ if (custo <= 0 || venda <= 0) {
 } else if (balanco > 0) {
   console.log('A empresa terá um lucro de R$' + balanco);
 }
+
+console.log('-----Exercício 11-----');
+
+let salarioBruto = 2150.00;
+let INSS = [];
+let IR = [];
+
+if (salarioBruto <= 1556.94) {
+  INSS = salarioBruto * 0.08;
+} else if (salarioBruto <= 2594.92) {
+  INSS = salarioBruto * 0.09;
+} else if (salarioBruto <= 5189.82) {
+  INSS = salarioBruto * 0.11;
+} else {
+  INSS = 570.88;
+}
+
+let menosINSS = salarioBruto - INSS;
+
+if (menosINSS <= 1903.98){
+  IR = 0;
+} else if (menosINSS <= 2826.65) {
+  IR = (menosINSS * 0.075) - 142.80;
+} else if (menosINSS <= 3751.05) {
+  IR = (menosINSS * 0.15) - 354.80;
+} else if (menosINSS <= 4664.68) {
+  IR = (menosINSS * 0.225) - 636.13;
+} else if (menosINSS > 4664.68) {
+  IR = (menosINSS * 0.275) - 869.36;
+}
+
+let salarioLiq = menosINSS - IR;
+
+console.log(salarioLiq);
