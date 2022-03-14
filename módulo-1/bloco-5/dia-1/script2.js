@@ -4,3 +4,5 @@ document.getElementsByClassName("main-content")[0].style.backgroundColor = "rgb(
 
 document.getElementsByClassName("center-content")[0].style.backgroundColor = "white";
 
+document.getElementsByTagName("h1")[0].innerText = 'Exercício 5.1 - JavaScript';
+
