@@ -11,3 +11,8 @@ let paragraph = document.getElementsByTagName("p");
 for (i in paragraph) {
   paragraph[i].style.textTransform = "uppercase";
 }
+function exibir() {
+  for (i2 in paragraph) {
+    console.log(paragraph[i2]);
+  }
+}
