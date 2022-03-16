@@ -37,10 +37,23 @@
     document.getElementById("pai").lastElementChild.previousElementSibling;
 
     // ------- Parte II ------- //
-    // let pai = document.getElementById("pai");
+    
+    function createSection(parmX) {
+      let sect = document.creatElement('section');
+      return sect;
+    }
+    document.getElementById("pai").appendChild(createSection()); // Adiciona um irmão para elementoOndeVoceEsta
+    
+    document.getElementById("elementoOndeVoceEsta").appendChild(createSection()); // Adiciona um filho para elementoOndeVoceEsta
 
+    document.getElementById("primeiroFilhoDoFilho").appendChild(createSection()); // Adiciona um filho para primeiroFilhoDoFilho 
 
-    // document.getElementById("pai").document.createElement('section').classlist('circle medium red');
+    document.getElementById("primeiroFilhoDoFilho").parentNode.parentNode.childNodes[5]; // A partir desse filho criado, acesse terceiroFilho 
+
+    // ------- Parte III ------- //
+
+    
+    
   </script>
 </body>
 </html>
