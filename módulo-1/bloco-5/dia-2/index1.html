@@ -37,10 +37,36 @@
     document.getElementById("pai").lastElementChild.previousElementSibling;
 
     // ------- Parte II ------- //
+    
+    function createSection(parmX) {
+      let sect = document.creatElement('section');
+      return sect;
+    }
+    document.getElementById("pai").appendChild(createSection()); // Adiciona um irmão para elementoOndeVoceEsta
+    
+    document.getElementById("elementoOndeVoceEsta").appendChild(createSection()); // Adiciona um filho para elementoOndeVoceEsta
+
+    document.getElementById("primeiroFilhoDoFilho").appendChild(createSection()); // Adiciona um filho para primeiroFilhoDoFilho 
+
+    document.getElementById("primeiroFilhoDoFilho").parentNode.parentNode.childNodes[5]; // A partir desse filho criado, acesse terceiroFilho 
+
+    // ------- Parte III ------- //
+
     // let pai = document.getElementById("pai");
+    // let paiItems = document.getElementById("pai").childNodes;
+    // let lastGrandSon = document.getElementById("elementoOndeVoceEsta");
+    // let grandSonItems = document.getElementById("elementoOndeVoceEsta").childNodes;
 
+    // for (let index = 0; index < paiItems.length; index += 1) {
+    //   pai.removeChild(paiItems[index]);
+    // } for (let index = 0; index < paiItems.length; index += 1) {
+    //   pai.removeChild(paiItems[index]);
+    // } for (let index = 0; index < paiItems.length; index += 1) {
+    //   pai.removeChild(paiItems[index]);
+    // } for (let index = 2; index < grandSonItems.length; index += 1) {
+    //     lastGrandSon.removeChild(grandSonItems[index]);
+    // }
 
-    // document.getElementById("pai").document.createElement('section').classlist('circle medium red');
   </script>
 </body>
 </html>
