@@ -8,10 +8,22 @@ const myWebpage = document.getElementById('my-spotrybefy');
 // 1. Copie esse arquivo e edite apenas ele;
 // 1.1. Antes de começar os exercícios, use o LiveServer para dar uma olhada em como está a página no navegador.
 // 1.2. Note que uma das caixas está um pouco acima das outras. Por que isso ocorre?
+// A classe 'tech' está deslocando o eixo Y dela '-20px'.
 
 // 2. Crie uma função que adicione a classe 'tech' ao elemento `li` quando for clicado.
 // 2.1. Deve existir apenas um elemento com a classe 'tech'. Como você faz isso?
+let Li2 = document.getElementById('second-li');
+let Li3 = document.getElementById('third-li');
 
+Li2.addEventListener("click", liTech2);
+Li3.addEventListener("click", liTech3);
+
+function liTech2(x){
+  Li2.classList.add('tech');
+}
+function liTech3(x){
+  Li3.classList.add('tech');
+}
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
 
