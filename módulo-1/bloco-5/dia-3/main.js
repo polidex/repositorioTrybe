@@ -39,7 +39,13 @@ function digTech() {
 
 // 5. Crie uma função que, ao passar o mouse sobre 'Meu top 3 do Spotrybefy', altere
 // a cor do mesmo;
+let title = document.getElementById('my-spotrybefy');
 
+title.addEventListener('mouseover', changeColor);
+
+function changeColor() {
+  title.color('red');
+}
 // Segue abaixo um exemplo do uso de event.target:
 
 
