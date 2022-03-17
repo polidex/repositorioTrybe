@@ -18,15 +18,21 @@ let Li3 = document.getElementById('third-li');
 Li2.addEventListener("click", liTech2);
 Li3.addEventListener("click", liTech3);
 
-function liTech2(x){
+function liTech2(){
   Li2.classList.add('tech');
 }
-function liTech3(x){
+function liTech3(){
   Li3.classList.add('tech');
 }
 // 3. Crie uma função que, ao digitar na caixa de texto, altere o texto do elemento
 // com a classe 'tech';
+let dig = document.getElementById('input');
 
+dig.addEventListener("keypress", digTech);
+
+function digTech() {
+  dig.classList.add('tech');
+}
 // 4. Crie uma função que, ao clicar duas vezes em 'Meu top 3 do Spotrybefy', ele
 // redirecione para alguma página;
 // 4.1. Que tal redirecionar para seu portfólio?
