@@ -30,5 +30,11 @@ const longestWord = text => {
 
 console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"));
 
-//-------------------Desafio 3----------
+//-------------------Desafio 4----------
+let string = 'Tryber x aqui!';
 
+const xChange = word => {
+  return string === 'x';
+}
+xChange('Tryber x aqui!');
+console.log(string);
