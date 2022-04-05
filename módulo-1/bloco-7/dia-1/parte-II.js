@@ -29,3 +29,6 @@ const longestWord = text => {
 }
 
 console.log(longestWord("Antonio foi no banheiro e não sabemos o que aconteceu"));
+
+//-------------------Desafio 3----------
+
